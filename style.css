@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+img {
+  max-width: 100%;
+}
+.a {
+  text-decoration: none;
+}
+.hero {
+  width: 100%;
+  background-image: url(./img/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  width: 1140px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 70px;
+  display: flex;
+}
+.subtitle {
+  color: #f4cb08;
+  font-size: 20px;
+  font-weight: 400;
+}
+.title {
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 42px;
+  margin-top: 14px;
+  margin-bottom: 28px;
+}
+hr {
+  width: 100px;
+  color: #f4cb08;
+  height: 0px;
+}
+.detailes {
+  color: white;
+  margin-top: 22px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.portfilo {
+  color: white;
+  background: #f4cb08;
+  padding: 12px 28px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.about {
+  color: white;
+  text-transform: uppercase;
+  padding: 12px 28px;
+  border: 2px solid white;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.wellcome {
+  background-color: #fff;
+  display: flex;
+}
+.wellcome-left {
+  margin-top: 50px;
+  margin-left: 60px;
+  padding-top: 70px;
+  width: 50%;
+}
+.subtitle {
+  color: #f4cb08;
+  font-size: 20px;
+  font-weight: 583;
+}
+.wellcome .title {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+}
+hr {
+  width: 100px;
+  background: #f4cb08;
+  height: 4px;
+  border: none;
+}
+.we.are {
+  color: #d1c8c8;
+  font-style: italic;
+  font-size: 24px;
+  margin-top: 21px;
+}
+.wellcome-right {
+  width: 50%;
+  margin-top: 50px;
+}
+p {
+	text-transform: capitalize;
+	line-height: 2;
+	font-family: roboto;
+	font-weight: 400;
+	margin-bottom: 50px;
+	padding-right: 20px;
+}
+.btn {
+  text-transform: uppercase;
+  background: #f4cb08;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  padding: 12px 10px;
+  text-decoration: none;
+}
+.design {
+  display: flex;
+  margin-top: 68px;
+}
+.desgin-left {
+  width: 33.33%;
+  height: 285px;
+  background-image: url(./img/img-left.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.desgin-1 {
+  text-transform: uppercase;
+  font-size: 33px;
+  color: white;
+  margin-top: 100px;
+}
+.desgin-midle {
+  width: 33.33%;
+  background-image: url(./img/img-middle.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.desgin-2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 100px;
+}
+.desgin-right {
+  width: 33.33%;
+  background-image: url(./img/img-right.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.desgin-3 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-top: 112px;
+}
+
+.bulding-two {
+  color: white;
+  font-weight: 500;
+}
+.bulding {
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.bulding-on {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.servise-title {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f4cb08;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.servise-subtitle {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.servise hr {
+  margin-left: 720px;
+  margin-top: 20px;
+}
+.planning {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 176px;
+}
+.planning .subtile {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 19px;
+}
+.planning p {
+	font-size: 20px;
+	padding-right: 20px;
+}
+.construction {
+  display: flex;
+  margin-left: 166px;
+  font-size: 20px;
+  margin-top: 51px;
+}
+.construction .subtile {
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 800;
+}
+.portfolio {
+  background: #000;
+  margin-top: -1px;
+  height: 146px;
+}
+.portfolio .title {
+  text-align: center;
+  color: #f4cb08;
+  font-size: 22px;
+  font-weight: 700;
+}
+.portfolio .subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+}
+.portfolio hr {
+  margin-left: 720px;
+  margin-top: 20px;
+}
+.project {
+  display: flex;
+  margin-top: 0px;
+}
+.img-left {
+  background-image: url(./img/1122.jpg);
+  width: 25%;
+  height: 200px;
+}
+.img-midle {
+  background-image: url(./img/112233.jpg);
+  width: 25%;
+  height: 200px;
+}
+.img-right {
+  background-image: url(./img/12.jpg);
+  width: 25%;
+  height: 200px;
+}
+.img-right-on {
+  background-image: url(./img/1122.jpg);
+  width: 25%;
+  height: 200px;
+}
+.project-2 {
+  display: flex;
+}
+.project-2 .img-left {
+  background-image: url(./img/12345678.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-2 .img-midle {
+  background-image: url(./img/azc.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-2 .img-right {
+  background-image: url(./img/aa.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-2 .img-right-on {
+  background-image: url(./img/img-right.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.tem {
+  display: flex;
+  margin-top: 144px;
+  margin-left: 249px;
+}
+.tem .title {
+  font-size: 18px;
+  color: #f4cb08;
+  font-weight: 800;
+}
+.tem .subtile {
+  font-size: 36px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 100px;
+}
+.tem a {
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #f4cb08;
+  color: white;
+  padding: 18px;
+}
+.tem img {
+  width: 1225px;
+  height: 300px;
+}
+.tem-right {
+  margin-left: 121px;
+}
+.Customers {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(./img/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin-top: 140px;
+  justify-content: space-evenly;
+  padding-top: 84px;
+}
+.p {
+  width: 300px;
+  height: 300px;
+  color: #d1c8c8;
+  font-weight: 400;
+  font-family: candara;
+}
+.Customers p {
+  color: #f4cb08;
+  font-size: 28px;
+  font-weight: 700;
+}
+.Customers .subtaitle {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 21px;
+}
